@@ -1,0 +1,16 @@
+'''ques3-write a numpy program to capitalize the first letter,lowercase,uppercase,swapcase,title-case of all the elements of a given array'''
+
+import numpy as np
+x=np.array(['python','php','java','c++'],dtype=np.star)
+print('original array:')
+print(x)
+capitalized_case=np.char.capitalize(x)
+lowered_case=np.char.lower(x)
+uppered_case=np.char.upper(x)
+swapcased_case=np.char.swapcase(x)
+titlecase_case=np.char.title(x)
+print('\ncapitalized:',capitalized_case)
+print('lowered:',lowered_case)
+print('uppered:',uppered_case)
+print('swapcased:',swapcased_case)
+print('titlecased:',titlecased_case)
