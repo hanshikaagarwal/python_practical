@@ -1,0 +1,8 @@
+'''ques8-write a numpy program to remove the trailing whitespaces of all the elements of a given array'''
+
+import numpy as np
+x=np.array(['python exercises','php','java','c++'],dtype=np.star)
+print('original array:')
+print(x)
+rstripped_char=np.char.rstrip(x)
+print('\n remove the trailing whitespaces:',rstripped_char)
