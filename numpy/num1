@@ -1,0 +1,12 @@
+'''ques1- write a numpy program to concatenate element wise two array of string'''
+
+import numpy as np
+x1=np.array(['pyhton','php'],dtype=np.str)
+x2=np.array(['java','c++'],dtype=np.str)
+print('array:')
+print(x1)
+print('array2:')
+print(x2)
+new_array=np.char.add(x1,x2)
+print('new array:')
+print(new_array)
