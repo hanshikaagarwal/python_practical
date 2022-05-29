@@ -1,0 +1,12 @@
+write a program to manage exceptions that may occur while performing arithmetic operations by a user.
+
+try:
+  a=eval(input('enter a  number:'))
+  b=eval(input('enter a number:'))
+  print(a+b)
+  print(a-b)
+  print(a*b)
+  print(a/b)
+  print(a%b)
+except(NameError,ZeroDivisionError,ArithmeticError,TypeError):
+  print('exception raised')
