@@ -1,0 +1,13 @@
+'''ques4-write a numpy program to make the length of each element 15 of a given array and the string centered/left justified /right justified with
+padding of-'''
+
+import numpy as np
+x=np.array(['python','php','java','c++'],dtype=np.star)
+print('original array:')
+print(x)
+centered=np.char.center(x,15,fillchar='')
+left=np.char.ljust(x,15,fillchar='')
+right=np.char.rjust(x,15,fillchar='')
+print('\n centered=',centered)
+print('left=',left)
+print('right=',right)
