@@ -1,0 +1,9 @@
+'''ques2-write a numpy program to repeat all the elements three times of a given array of a string'''
+
+import numpy as np
+x1=np.array(['python','php','java','c++'],dtype=np.str)
+print('original array :')
+print(x1)
+new_array=np.char.multiply(x1,3)
+print('new array:')
+print(new_array)
