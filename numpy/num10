@@ -1,0 +1,8 @@
+'''ques10-write a numpy program to split the elements of a given array to multiple lines'''
+
+import numpy as np
+x=np.array(['python\exercise,practise,solution'],dtype=np.star)
+print('original array:')
+print(x)
+r=np.char.splitlines(x)
+print(r)
