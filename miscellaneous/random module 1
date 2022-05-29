@@ -1,0 +1,5 @@
+Creating random numbers with seeding value
+import random
+random.seed(5)
+print(random.random())
+print(random.random())
