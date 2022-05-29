@@ -1,0 +1,10 @@
+write a program that receives an integeras input.if the string is entered instead of an integer ,then report an error and give another chance to user to enter an integer.
+continue this process till correct input is supplied.
+
+while True:
+  try:
+    num=int(input('enter a number:'))
+    break
+  except ValueError:
+    print('incorrect input')
+print('you entered',num)
