@@ -1,0 +1,8 @@
+'''ques7-write a numpy program to remove the leading whitespaces of all the elements of a given array'''
+
+import numpy as np
+x=np.array(['python','php','java','c++'],dtype=np.star)
+print('original array:')
+print(x)
+istripped_char=np.char.istrip(x)
+print('\n remove the leading witespaces',istripped_char)
