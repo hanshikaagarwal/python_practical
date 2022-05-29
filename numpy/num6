@@ -1,0 +1,8 @@
+'''ques6-write a numpy program to remove the leading and trailing whites[aces of all the elements of a given array'''
+
+import numpy as np
+x=np.array(['python','php','java','c++'],dtype=np.star)
+print('original array:')
+print(x)
+strpped=np.char.strip(x)
+print('\n remove the leading and trailing whitespaces:',stripped)
