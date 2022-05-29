@@ -1,0 +1,9 @@
+'''ques9-write a numpy program to split the elements of a given array with spaces'''
+
+import numpy as np
+x=np.array(['python php java c++'],dtype=np.star)
+print('original array:')
+print(x)
+r=np.char.split(x)
+print('\n split the elements of the said array with spaces:')
+print(r)
